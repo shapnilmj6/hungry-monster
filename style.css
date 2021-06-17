@@ -1,14 +1,21 @@
-body{
-    margin: 0px;
-    font-family: 'Poppins', sans-serif;
+.title{
+    margin: 20px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
-.search-area{
-    width: 550px;
-    height: 50px;
-    margin-left: 300px;
-    /* margin-top: 50px; */
+.mealImg{
+    width: 200px;
 }
-.search-button{
-    width: 80px;
-    height: 45px;
+.meal{
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+#meals{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
 }
